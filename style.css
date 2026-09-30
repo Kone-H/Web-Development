@@ -1,0 +1,32 @@
+
+
+.card{
+    background-color: white;
+    padding: 30px;
+    width: 620px;
+
+}
+
+button{
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 4px;
+}
+
+button:hover{
+    background-color: #357abd;
+
+}
+
+input{
+    padding: 8px;
+    font-size: medium;
+    border-radius: 6px;
+}
+
+#minusBtn{
+    color: purple;
+    font-size: smaller;
+}
