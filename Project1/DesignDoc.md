@@ -5,13 +5,14 @@
 ## CSS and HTML only
 
 - 1. NavBar
-    1. always stay in the same postion
-    2. navigate to every page
-    3. show current page
-    4. show your name
-    5. show nothing unless user scroll
-    6. coded in a list of links
-    7. usable with keyboard
+    1. always stay in the same postion✅
+    2. navigate to every page ✅
+    3. show current page✅
+    4. a header showing your name ✅
+    5. cover nothing unless user scroll✅
+    6. coded in a list of links ✅
+    7. usable with keyboard✅
+    8. same navbar in 4 pages
 
 - 2. Landing Page
     1. introduction of this site
