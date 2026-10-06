@@ -6,6 +6,8 @@
     font-size: larger;
     position: sticky;
     top: 10px;
+    /* stay above the puzzle cells and the clue box (z-index: 1) */
+    z-index: 2;
     border-radius: 10px;
     a{
         color: black;
