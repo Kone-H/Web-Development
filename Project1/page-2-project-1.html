@@ -3,6 +3,42 @@
 
 <head>
     <link rel="stylesheet" href="navbar-project-1.css">
+    <style>
+        .puzzle{
+            height: 500px;
+            width: 500px;
+            
+            grid-template-columns: repeat(5, 1fr);
+            text-align: center;
+            display: grid;
+
+        }
+
+        .open{
+            background-color: whitesmoke;
+            height: 100px;
+            width: 100px;
+            border: 1px black solid;
+        }
+
+        .blocked{
+            background-color: gray;
+            height: 100px;
+            width: 100px;
+            border: 1px black solid;
+        }
+        
+        input{
+            height: 50%;
+            width: 50%;
+            box-sizing:border-box;
+            font-size: 40px;
+            border: none;
+            background-color: transparent;
+
+        }
+
+    </style>
 </head>
 
 
@@ -16,6 +52,40 @@
             <li><a href="page-4-project-1.html">Page 4</a></li>
         </ul>
     </nav>
+
+    <main class="puzzle">
+
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 1, column 1, 1 Across, 1 Down"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 1, column 2, 1 Across, 2 Down"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 1, column 3, 1 Across, 3 Down"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 1, column 4, 1 Across, 4 Down"></div>
+        <div class="blocked"></div>
+
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 2, column 1, 5 Across, 1 Down"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 2, column 2, 5 Across, 2 Down"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 2, column 3, 5 Across, 3 Down"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 2, column 4, 5 Across, 4 Down"></div>
+        <div class="blocked"></div>
+
+        <div class="blocked"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 3, column 2, 6 Across, 2 Down"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 3, column 3, 6 Across, 3 Down"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 3, column 4, 6 Across, 4 Down"></div>
+        <div class="blocked"></div>
+
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 4, column 1, 7 Across, 7 Down"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 4, column 2, 7 Across, 2 Down"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 4, column 3, 7 Across, 3 Down"></div>
+        <div class="blocked"></div>
+        <div class="blocked"></div>
+
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 5, column 1, 7 Down"></div>
+        <div class="blocked"></div>
+        <div class="blocked"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 5, column 4, 8 Across"></div>
+        <div class="open"><input type="text" maxlength="1" aria-label="Row 5, column 5, 8 Across"></div>
+
+    </main>
 
     <p>test</p>
             <p>test1</p>
