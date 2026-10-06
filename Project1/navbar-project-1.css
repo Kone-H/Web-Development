@@ -1,16 +1,19 @@
 .navBar{
     border: 2px solid black;
     height: 100px;
-    width: 450px;
-    background-color: rgb(0, 217, 255);
-    font-size: larger;
+    /* wide enough for the 4 link names on one line */
+    width: 500px;
+    /* dark gray navbar with white text */
+    background-color: #333;
+    color: white;
+    font-size: medium;
     position: sticky;
     top: 10px;
-    /* stay above the puzzle cells and the clue box (z-index: 1) */
-    z-index: 2;
+    /* stay on top of the page content when scrolling */
+    z-index: 1;
     border-radius: 10px;
     a{
-        color: black;
+        color: white;
         &[aria-current = page]{
             color: greenyellow;
         }
@@ -22,6 +25,31 @@
     gap: 20px;
     list-style: none;
 
+}
+
+/* phone: the navbar fits the screen, links are at least 44px tall to tap */
+@media (max-width: 600px){
+    .navBar{
+        width: auto;
+        height: auto;
+    }
+
+    /* less empty space, so the sticky navbar does not take too much of a small screen */
+    .navBar p{
+        margin: 8px 10px 0;
+    }
+
+    .navBar ul{
+        margin: 0;
+        padding: 0 6px;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .navBar a{
+        display: inline-block;
+        padding: 13px 4px;
+    }
 }
 
 

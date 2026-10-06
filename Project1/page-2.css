@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+}
+
+main{
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+/* the 5x5 grid, centered on the page */
+.puzzle{
+    height: 500px;
+    width: 500px;
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    margin: 0 auto;
+}
+
+.open{
+    background-color: whitesmoke;
+    height: 100px;
+    width: 100px;
+    border: 1px black solid;
+    box-sizing: border-box;
+}
+
+.blocked{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    border: 1px black solid;
+    box-sizing: border-box;
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 40px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+
+/* check answers */
+input:not(:placeholder-shown):valid{
+    background-color: lightgreen;
+}
+
+input:not(:placeholder-shown):invalid{
+    background-color: pink;
+}
+
+/* tap target at least 44px tall */
+summary{
+    padding: 14px 0;
+    cursor: pointer;
+}
+
+/* phone: smaller cells */
+@media (max-width: 600px){
+    .puzzle{
+        height: 280px;
+        width: 280px;
+    }
+
+    /* 56px is still bigger than the 44px tap target */
+    .open,
+    .blocked{
+        height: 56px;
+        width: 56px;
+    }
+
+    input{
+        font-size: 28px;
+    }
+}
