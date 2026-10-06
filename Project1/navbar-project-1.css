@@ -6,6 +6,7 @@
     font-size: larger;
     position: sticky;
     top: 10px;
+    border-radius: 10px;
     a{
         color: black;
         &[aria-current = page]{
