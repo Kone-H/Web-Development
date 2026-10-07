@@ -27,14 +27,14 @@
 
 }
 
-/* phone: the navbar fits the screen, links are at least 44px tall to tap */
+/* phone: the navbar fits the screen */
 @media (max-width: 600px){
     .navBar{
         width: auto;
         height: auto;
     }
 
-    /* less empty space, so the sticky navbar does not take too much of a small screen */
+    /* less empty space for sticky bar*/
     .navBar p{
         margin: 8px 10px 0;
     }

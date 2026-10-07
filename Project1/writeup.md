@@ -24,4 +24,4 @@ Besides, I also plan to add a validation feature for the puzzle. If the user pro
 
 
 - If you used code or design from anywhere online (including AI), say so here. If you imported a font or icon library, or adapted an existing puzzle, note that as well
-    - I use Claude to generate the answer and clue in the puzzle for me. Besides, I also ask Claude to guide me to properly use '@media' and give me hints in validating user's answer ,and using `placeholder` to keep the grid white before the user make any input or delete their input.
+    - I use Claude to generate the answer and clue in the puzzle for me. Besides, I also ask Claude to guide me to properly use '@media' and give me hints in validating user's answer, and using `placeholder` to keep the grid white before the user make any input or after they delete the input.

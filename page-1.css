@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f8fb;
+    background-color: white;
 }
 
 main {
@@ -22,12 +22,12 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* welcome box: everything in the middle */
+
 header {
     text-align: center;
 }
 
-/* "Go!" link that looks like a button, in the accent color (cyan) */
+
 .start {
     display: inline-block;
     margin: 10px 0 20px;
@@ -42,7 +42,7 @@ header {
     transition: transform 0.2s;
 }
 
-/* grow a little when the mouse is on it */
+/* grow when the mouse is on it */
 .start:hover {
     transform: scale(1.05);
 }

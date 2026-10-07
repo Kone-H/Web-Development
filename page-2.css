@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #f4f8fb;
+    background-color: white;
 }
 
 main{
@@ -69,7 +69,6 @@ summary{
         width: 280px;
     }
 
-    /* 56px is still bigger than the 44px tap target */
     .open,
     .blocked{
         height: 56px;
